@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blender Store</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<header class="navbar">
+    <div class="logo">
+      <img src="./img/mixbrewlogo.jpg" alt="Mix&Brew Logo" />
+      <span>Mix&Brew</span>
+    </div>
+    <nav>
+        <ul class="nav-menu">
+          <li><a href="../index.html">Главная страница</a></li>
+          <li class="dropdown">
+            <a href="#">Каталог ▼</a>
+            <ul class="dropdown-menu">
+             <li><a href="../Sale/index.html">SALE</a></li>
+              <li><a href="../блендеры/index.html">Блендеры</a></li>
+              <li><a href="../миксеры/index.html">Миксеры</a></li>
+              <li><a href="../кофе машинки/index.html">Кофемашины и кофеварки</a></li>
+            </ul>
+          </li>
+          <li><a href="../о нас/index.html">О нас</a></li>
+          <li><a href="../корзина/index.html">Корзина</a></li>
+          <li><a href="#">🔍</a></li>
+          
+        </ul>
+    
+    </nav>
+  </header>
+<body>
+    
+    <div class="product-container">
+        <div class="product-card">
+            <div class="sale-badge">SALE</div>
+            <img src="./img/миксеры1.png" alt="Moulinex Blendforce" class="product-image">
+            <h3>Миксер TriTower TT-7729</h3>
+            <p class="price">10990 тг. </p>
+            <button class="buy-button"
+            data-id="10" 
+   data-name="Миксер TriTower TT-7729" 
+   data-price="10990">Купить</button>
+        </div>
+
+        <div class="product-card">
+            <div class="sale-badge">SALE</div>
+            <img src="./img/миксеры 2.png" alt="ARG KB-01" class="product-image">
+            <h3>Миксер Kitfort КТ-3080 </h3>
+            <p class="price">39990 тг. </p>
+            <button class="buy-button" data-id="11" 
+   data-name="Миксер KT-3080" 
+   data-price="39990">Купить</button>
+        </div>
+
+        <div class="product-card">
+            <img src="./img/миксер 3.png" alt="HAROOKO A9" class="product-image">
+            <h3>Миксер NEXME CK298</h3>
+            <p class="price">23990 тг.</p>
+            <button class="buy-button" data-id="12" 
+   data-name="миксер NEXME CK298" 
+   data-price="23990">Купить</button>
+        </div>
+    </div>
+
+    <footer>
+        <p>Mix&Brew © 2025. Все права защищены.</p>
+        <p>Доставка по Казахстану 2–5 дней. Самовывоз в г. Караганда.</p>
+        <p>Email: mixandbrew@store.com | Тел: +7 (777) 123-45-67</p>
+    </footer>
+    <script src="cart.js"></script>
+</body>
+</html>
